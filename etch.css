@@ -1,0 +1,89 @@
+body {
+    background-color: wheat;
+    margin: 0;
+}
+
+.h2 {
+    color: green;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.h5 {
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 200px;
+    grid-gap: 7px;
+    margin: 0 auto;
+}
+
+.area {
+    width: 70%;
+    /* height: 70vh; */
+    background-color: #fff;
+    margin: 20px auto 0;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+.area div {
+    height: 30px;
+    border: 1.2px solid rgb(233, 127, 6);
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.black {
+    background-color: black;
+    color: wheat;
+}
+
+.black:hover {
+    background-color: #222;
+    color: white;
+}
+
+.rainbow {
+    background-color: aquamarine;
+}
+
+.rainbow:hover {
+    background-color: aqua;
+    color: #555;
+}
+
+.reset {
+    background-color: tomato;
+}
+
+.reset:hover {
+    background-color: rgb(255, 38, 0);
+    color: thistle;
+}
+
+.new-grid {
+    background-color: tomato;
+}
+
+.new-grid:hover {
+    background-color: rgb(255, 38, 0);
+    color: thistle;
+}
